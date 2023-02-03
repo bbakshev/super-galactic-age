@@ -23,4 +23,8 @@ export default class GalacticAge {
   yearsPassedOnMars() {
     return parseFloat(this.yearsPassedOnEarth() / 1.88);
   }
+
+  yearsPassedOnJupiter() {
+    
+  }
 }

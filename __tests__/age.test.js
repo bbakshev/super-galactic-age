@@ -46,4 +46,9 @@ describe("GalacticAge", () => {
     expect(myGalacticAge.yearsPassedOnMars()).toEqual((25 - 10) / 1.88);
   });
 
+  test("should calculate how many Jupiter years have passed since the users last birthday", () => {
+    const myGalacticAge = new GalacticAge(25,10);
+    expect(myGalacticAge.yearsPassedOnJupiter()).toEqual((25 - 10) / 11.86);
+  });
+
 });
