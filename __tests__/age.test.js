@@ -6,4 +6,9 @@ describe('GalacticAge', () => {
     expect(myGalacticAge.earthAge).toEqual(25);
   });
 
+  test('should calculate the users age in Mercury years', () => {
+    const myGalacticAge = new GalacticAge(25);
+    expect(myGalacticAge.mercuryAge).toEqual(25 * 0.24);
+  });
+
 });
