@@ -9,6 +9,6 @@ export default class GalacticAge {
     this.jupiterAge = parseFloat(earthAge / 11.86);
   }
   yearsPassedOnEarth() {
-    
+    return this.earthAge - this.pastAge;
   }
 }
