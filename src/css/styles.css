@@ -27,7 +27,7 @@ h3 {
 
 h4 {
   display: block;
-  font-size: 1.50em;
+  font-size: 1.2em;
   margin-block-start: 2em;
   margin-block-end: 1em;
   margin-left: 50px;
@@ -37,7 +37,7 @@ h4 {
 
 ol {
   display: block;
-  font-size: 1.50em;
+  font-size: 1.2em;
   margin-block-end: 1em;
   margin-left: 50px;
   margin-inline-end: 0px;
@@ -59,8 +59,13 @@ h2 {
   margin: 10px;
   font-size: 1.15em;
   align-items: center;
-  background-color: rgb(46, 46, 46);
   padding-left: 1.5%;
+}
+
+img {
+  margin: auto;
+  width: 60%;
+  height: auto;
 }
 
 .center-column {
