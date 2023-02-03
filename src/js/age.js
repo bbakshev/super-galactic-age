@@ -15,4 +15,8 @@ export default class GalacticAge {
   yearsPassedOnMercury() {
     return parseFloat(this.yearsPassedOnEarth() / 0.24);
   }
+
+  yearsPassedOnVenus() {
+    
+  }
 }
