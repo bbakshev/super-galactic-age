@@ -13,6 +13,6 @@ export default class GalacticAge {
   }
 
   yearsPassedOnMercury() {
-    this.mercuryAge = parseFloat((this.earthAge - this.pastAge) / 0.24);
+    return parseFloat(this.yearsPassedOnEarth() / 0.24);
   }
 }
