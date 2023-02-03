@@ -11,4 +11,9 @@ describe('GalacticAge', () => {
     expect(myGalacticAge.mercuryAge).toEqual(25 * 0.24);
   });
 
+  test('should calculate the users age in Venus years', () => {
+    const myGalacticAge = new GalacticAge(25);
+    expect(myGalacticAge.venusAge).toEqual(25 / 0.62).toFixed(2);
+  });
+
 });

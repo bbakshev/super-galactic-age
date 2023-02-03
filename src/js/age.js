@@ -3,7 +3,7 @@ export default class GalacticAge {
     this.earthAge = earthAge;
     this.pastAge = pastAge;
     this.futureAge = futureAge;
-    this.mercuryAge = parseFloat((earthAge * .24).toFixed(2));
+    this.mercuryAge = parseFloat((earthAge / 0.24).toFixed(2));
   }
 
 }
