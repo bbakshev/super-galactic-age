@@ -20,4 +20,10 @@ describe("GalacticAge", () => {
     const myGalacticAge = new GalacticAge(25);
     expect(myGalacticAge.marsAge).toEqual(25 / 1.88);
   });
+
+  test("should calculate the users age in Jupiter years", () => {
+    const myGalacticAge = new GalacticAge(25);
+    expect(myGalacticAge.jupiterAge).toEqual(25 / 11.86);
+  });
+
 });
