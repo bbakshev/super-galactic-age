@@ -15,14 +15,45 @@
     </ol>
     <form class="form-input">
       <div class="age-input">
-        <label for="age"> ENTER YOUR AGE HERE → </label>
-        <input type="text" name="month" size="10">
+
+        <label for="present-age"> ENTER YOUR AGE HERE ↓  <br><br>Present Age</label>
+        <input type="text" name="present-age" size="10">
+        <label for="past-age"> Past Age</label>
+        <input type="text" name="past-age" size="10">
+        <label for="future-age"> Future Age</label>
+        <input type="text" name="future-age" size="10">
         <button type="submit">Calculate</button>
       </div><br>
+    </form>
     <hr>
+    <div class="center-column">
     <div class="column">
-      <p><img src="./assets/images/earth.png" alt="earth!"></p>
+      <div id="current-age">
+        <p>Current Earth Age: <span id="current-earth"></span></p>
+        <p>Current Mercury Age: <span id="current-mercury"></span></p>
+        <p>Current Venus Age: <span id="current-venus"></span></p>
+        <p>Current Mars Age: <span id="current-mars"></span></p>
+        <p>Current Jupiter Age: <span id="current-jupiter"></span></p>
+      </div>
     </div>
-  </form>
+    <div class="column">
+      <div id="past-age">
+        <p>Earth Years Have Passed: <span id="past-earth"></span></p>
+        <p>Mercury Years Have Passed: <span id="past-mercury"></span></p>
+        <p>Venus Years Have Passed: <span id="past-venus"></span></p>
+        <p>Mars Years Have Passed: <span id="parst-mars"></span></p>
+        <p>Jupiter Years Have Passed: <span id="past-jupiter"></span></p>
+      </div>
+    </div>
+    <div class="column">
+      <div id="future-age">
+        <p>Earth Years Have Yet To Pass: <span id="future-earth"></span></p>
+        <p>Mercury Years Have Yet To Pass: <span id="future-mercury"></span></p>
+        <p>Venus Years Have Yet To Pass: <span id="future-venus"></span></p>
+        <p>Mars Years Have Yet To Pass: <span id="future-mars"></span></p>
+        <p>Jupiter Years Have Yet To Pass: <span id="future-jupiter"></span></p>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
