@@ -1,6 +1,4 @@
 import GalacticAge from './js/age.js';
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
 function handleFormComplete(event) {
@@ -8,7 +6,7 @@ function handleFormComplete(event) {
 
   const presentAgeInput = document.getElementById("present-age").value;
   const pastAgeInput = document.getElementById("past-age").value;
-  const futureAgeInput = document.getElementById("future-age");
+  const futureAgeInput = document.getElementById("future-age").value;
 
   let ageOutput = new GalacticAge(presentAgeInput,pastAgeInput,futureAgeInput);
 
@@ -25,6 +23,14 @@ function handleFormComplete(event) {
   document.getElementById("past-venus").innerText = ageOutput.yearsPassedOnVenus();
   document.getElementById("past-mars").innerText = ageOutput.yearsPassedOnMars();
   document.getElementById("past-jupiter").innerText = ageOutput.yearsPassedOnJupiter();
+
+  // display output for the future age
+  document.getElementById("future-earth").innerText = ageOutput.yearsYetToPassOnEarth();
+  document.getElementById("future-mercury").innerText = ageOutput.yearsYetToPassOnMercury();
+  document.getElementById("future-venus").innerText = ageOutput.yearsYetToPassOnVenus();
+  document.getElementById("future-mars").innerText = ageOutput.yearsYetToPassOnMars();
+  document.getElementById("future-jupiter").innerText = ageOutput.yearsYetToPassOnJupiter();
+
 
 }
 

@@ -33,18 +33,18 @@ export default class GalacticAge {
   }
 
   yearsYetToPassOnMercury() {
-    return parseFloat(this.yearsYetToPassOnEarth() / 0.24);
+    return parseFloat(this.yearsYetToPassOnEarth() / 0.24).toFixed();
   }
 
   yearsYetToPassOnVenus() {
-    return parseFloat(this.yearsYetToPassOnEarth() / 0.62);
+    return parseFloat(this.yearsYetToPassOnEarth() / 0.62).toFixed();
   }
 
   yearsYetToPassOnMars() {
-    return parseFloat(this.yearsYetToPassOnEarth() / 1.88);
+    return parseFloat(this.yearsYetToPassOnEarth() / 1.88).toFixed();
   }
 
   yearsYetToPassOnJupiter() {
-    return parseFloat(this.yearsYetToPassOnEarth() / 11.86);
+    return parseFloat(this.yearsYetToPassOnEarth() / 11.86).toFixed();
   }
 }
