@@ -6,5 +6,6 @@ export default class GalacticAge {
     this.mercuryAge = parseFloat(earthAge / 0.24);
     this.venusAge = parseFloat(earthAge / 0.62);
     this.marsAge = parseFloat(earthAge / 1.88);
+    this.jupiterAge = parseFloat(earthAge / 11.86);
   }
 }
