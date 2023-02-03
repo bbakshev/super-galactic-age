@@ -48,6 +48,13 @@ h2 {
 
 .age-input {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.50em;
   font-weight: bold;
+}
+
+.column {
+  width: 300px;
+  float: left;
+  margin: 5px;
+  display: block;
 }
