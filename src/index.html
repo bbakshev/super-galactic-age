@@ -4,8 +4,9 @@
     <title>Galactic Age Calculator</title>
   </head>
   <body>
-    <h1>YOUR AGE ON OTHER WORLDS</h1>
-    <h3>Want to melt those years away? Travel to an outer planet!</h3>
+    <h1 class="text-center">YOUR AGE ON OTHER WORLDS</h1>
+    <h3 class="text-center">Want to melt those years away? Travel to an outer planet!</h3><br>
+    <div class="list-text-align">
     <h4>TO DO AND NOTICE</h4>
     <ol>
       <li>Fill in your age below in the space indicated.</li>
@@ -13,36 +14,42 @@
       <li>Notice that your age on other worlds will automatically fill in.</li>
       <li>Notice that Your age is different on the different worlds.</li>
     </ol>
+  </div>
     <form class="input" id="form-input">
       <div class="age-input">
-        <label for="present-age"> ENTER YOUR AGE HERE ↓  <br><br>Current Age</label>
+        <h2>ENTER YOUR AGE HERE ↓</h2>
+        <label for="present-age">Current Age</label>
         <input type="text" name="present-age" size="10" id="present-age">
         <label for="past-age"> Past Age</label>
         <input type="text" name="past-age" size="10" id="past-age">
         <label for="future-age"> Future Age</label>
-        <input type="text" name="future-age" size="10" id="future-age">
-        <button type="submit">Calculate</button>
+        <input type="text" name="future-age" size="10" id="future-age"><br>
+        <button type="submit" class="btn btn-primary">Calculate</button>
       </div><br><hr>
-  </form>
-    <div class="center-column">
-    <div class="column">
-      <div id="current-age">
-        <p>Current Earth Age: <span id="current-earth"></span></p>
-        <p>Current Mercury Age: <span id="current-mercury"></span></p>
-        <p>Current Venus Age: <span id="current-venus"></span></p>
-        <p>Current Mars Age: <span id="current-mars"></span></p>
-        <p>Current Jupiter Age: <span id="current-jupiter"></span></p>
+    </form>
+    <div class="container center-column">
+      <div class="column">
+        <div id="current-age">
+          <p>Current Earth Age: <span id="current-earth"></span></p>
+          <p>Current Mercury Age: <span id="current-mercury"></span></p>
+          <p>Current Venus Age: <span id="current-venus"></span></p>
+          <p>Current Mars Age: <span id="current-mars"></span></p>
+          <p>Current Jupiter Age: <span id="current-jupiter"></span></p>
+        </div>
       </div>
     </div>
+      <div class="container center-column">
     <div class="column">
       <div id="past-age">
         <p>Earth Years Have Passed: <span id="past-earth"></span></p>
         <p>Mercury Years Have Passed: <span id="past-mercury"></span></p>
         <p>Venus Years Have Passed: <span id="past-venus"></span></p>
-        <p>Mars Years Have Passed: <span id="parst-mars"></span></p>
+        <p>Mars Years Have Passed: <span id="past-mars"></span></p>
         <p>Jupiter Years Have Passed: <span id="past-jupiter"></span></p>
       </div>
     </div>
+    </div>
+    <div class="container center-column">
     <div class="column">
       <div id="future-age">
         <p>Earth Years Have Yet To Pass: <span id="future-earth"></span></p>
@@ -52,6 +59,7 @@
         <p>Jupiter Years Have Yet To Pass: <span id="future-jupiter"></span></p>
       </div>
     </div>
+  </div>
   </div>
   </body>
 </html>

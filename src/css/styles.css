@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: black;
   color:white;
   font-family:Cambria, Cochin, serif;
@@ -58,10 +58,39 @@ h2 {
   margin: 10px;
   font-size: 1.15em;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(46, 46, 46);
   padding: 5px;
 }
 
 .center-column {
   align-items: center;
+} */
+body {
+  background-color: black;
+  color:white;
+  font-family:Cambria, Cochin, serif;
+}
+
+.center-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-text-align{
+  margin-left: 3%;
+}
+.column {
+  width: 30%;
+  text-align: left;
+  margin: 20px;
+  background-color: rgba(107, 107, 107, 0.344);
+  color: #fff;
+}
+.age-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  margin-top: 50px;
 }
