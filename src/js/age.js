@@ -3,10 +3,10 @@ export default class GalacticAge {
     this.earthAge = earthAge;
     this.pastAge = pastAge;
     this.futureAge = futureAge;
-    this.mercuryAge = parseFloat(earthAge / 0.24);
-    this.venusAge = parseFloat(earthAge / 0.62);
-    this.marsAge = parseFloat(earthAge / 1.88);
-    this.jupiterAge = parseFloat(earthAge / 11.86);
+    this.mercuryAge = parseFloat(earthAge / 0.24).toFixed();
+    this.venusAge = parseFloat(earthAge / 0.62).toFixed();
+    this.marsAge = parseFloat(earthAge / 1.88).toFixed();
+    this.jupiterAge = parseFloat(earthAge / 11.86).toFixed();
   }
   yearsPassedOnEarth() {
     return this.earthAge - this.pastAge;

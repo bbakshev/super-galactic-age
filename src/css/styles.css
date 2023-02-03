@@ -56,7 +56,10 @@ h2 {
   width: 450px;
   float: left;
   margin: 10px;
+  font-size: 1.15em;
   align-items: center;
+  background-color: grey;
+  padding: 5px;
 }
 
 .center-column {
