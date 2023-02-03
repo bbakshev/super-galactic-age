@@ -1,5 +1,5 @@
 export default class GalacticAge {
-  constructor(earthAge, pastAge, futureAge, mercuryAge, venusAge, marsAge) {
+  constructor(earthAge, pastAge, futureAge) {
     this.earthAge = earthAge;
     this.pastAge = pastAge;
     this.futureAge = futureAge;
@@ -7,5 +7,8 @@ export default class GalacticAge {
     this.venusAge = parseFloat(earthAge / 0.62);
     this.marsAge = parseFloat(earthAge / 1.88);
     this.jupiterAge = parseFloat(earthAge / 11.86);
+  }
+  yearsPassedOnEarth() {
+    
   }
 }
