@@ -31,4 +31,9 @@ describe("GalacticAge", () => {
     expect(myGalacticAge.yearsPassedOnEarth()).toEqual(25 - 10);
   });
 
+  test("should calculate how many Mercury years have passed since the users last birthday", () => {
+    const myGalacticAge = new GalacticAge(25,10);
+    expect(myGalacticAge.yearsPassedOnMercury()).toEqual((25 - 10) / 0.24);
+  });
+
 });
