@@ -53,7 +53,7 @@ describe("GalacticAge", () => {
 
   test("should calculate how many Earth years have till the users next birthday", () => {
     const myGalacticAge = new GalacticAge(25,10,45);
-    expect(myGalacticAge.yearsYetToPassOnEarth()).toEqual(45 - 20);
+    expect(myGalacticAge.yearsYetToPassOnEarth()).toEqual(45 - 25);
   });
 
 });
