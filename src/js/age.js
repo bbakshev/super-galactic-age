@@ -41,4 +41,8 @@ export default class GalacticAge {
   yearsYetToPassOnVenus() {
     return parseFloat(this.yearsYetToPassOnEarth() / 0.62);
   }
+
+  yearsYetToPassOnMars() {
+    
+  }
 }

@@ -66,4 +66,9 @@ describe("GalacticAge", () => {
     expect(myGalacticAge.yearsYetToPassOnVenus()).toEqual((45 - 25) / 0.62);
   });
 
+  test("should calculate how many Mars years till the users next birthday", () => {
+    const myGalacticAge = new GalacticAge(25,10,45);
+    expect(myGalacticAge.yearsYetToPassOnMars()).toEqual((45 - 25) / 1.88);
+  });
+
 });
