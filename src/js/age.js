@@ -1,3 +1,5 @@
+import { parse } from "@babel/core";
+
 export default class GalacticAge {
   constructor(earthAge, pastAge, futureAge) {
     this.earthAge = earthAge;
@@ -37,6 +39,6 @@ export default class GalacticAge {
   }
 
   yearsYetToPassOnVenus() {
-    
+    return parseFloat(this.yearsYetToPassOnEarth() / 0.62);
   }
 }
