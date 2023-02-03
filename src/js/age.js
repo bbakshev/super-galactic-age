@@ -33,6 +33,6 @@ export default class GalacticAge {
   }
 
   yearsYetToPassOnMercury() {
-    return parseFloat(this.yearsYetToPassOnEarth() / 0.24)
+    return parseFloat(this.yearsYetToPassOnEarth() / 0.24);
   }
 }
