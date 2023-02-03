@@ -1,5 +1,3 @@
-import { parse } from "@babel/core";
-
 export default class GalacticAge {
   constructor(earthAge, pastAge, futureAge) {
     this.earthAge = earthAge;
