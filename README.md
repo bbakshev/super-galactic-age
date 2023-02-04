@@ -17,6 +17,8 @@
 
 This browser application allows users to use the form by inputting their age in the Present, Past and Future. Once the user inputs their age the form will display the user's, current, past, and future age on 5 planets (Earth, Mercury, Venus, Mars, and Jupiter). 
 
+![galactic](https://user-images.githubusercontent.com/121061679/216733922-b505959e-d371-44c8-801a-5ad1efdc203e.jpg)
+
 
 ## Setup/Installation Requirements
 Open Terminal
